@@ -326,8 +326,11 @@
 .blog-item:hover .blog-item__img img{
     transform: scale(1.1);
     transition: 0.5s;
+    
 }
-
+.blog-item__img:hover img{
+    overflow: hidden;
+}
 
 .blog-item__img{
     width: 100px;
